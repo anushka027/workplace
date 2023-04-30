@@ -16,9 +16,9 @@ public class HashMapDemo {
             System.out.println(map.get (key));
         }
 
-        for (Entry<String, Integer> entry : map.entrySet())
-        {
-            System.out.println( entry.getKey() + "," + entry.getValue());
-        }
+        // for (Entry<String, Integer> entry : map.entrySet())
+        // {
+        //     System.out.println( entry.getKey() + "," + entry.getValue());
+        // }
     }
 }
